@@ -33,13 +33,7 @@ article {
         margin-bottom: 10px;
          border-radius: 6px;
          }
-article h3{
-           color:#430303;
-           font-family: sans-serif;  
-           margin-bottom: 40px;
-           font-weight: lighter;
-           font-size: 25px;
-           }
+
 article p{
           color:white;
           text-align: justify;
@@ -78,11 +72,13 @@ li{
    font-size: 13pt; 
    }
 
+/*All titles*/
 h3{
     color:#430303;
-    font-weight:lighter;
+    font-weight:bold;
     margin-bottom: 40px;
-         
+    font-family: serif;
+    
   }
 
 .Contact{
@@ -98,7 +94,11 @@ h3{
         }
 
 
-h4{color:#430303}
+h4{ 
+    color:#430303;
+    font-weight:bold;
+    font-family: serif;
+  }
 
 
 
@@ -140,4 +140,15 @@ h4{color:#430303}
                   background-color: #337ab7;
                   border-color: #2e6da4;
                   }
+
+/*awesome font*/
+.fa{
     
+    color:bisque;    
+    } 
+
+/*underline int the top of page*/
+.line{ 
+      width:50px;
+      border-color:white;
+     }
