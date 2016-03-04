@@ -1,21 +1,24 @@
 body{
-     background-color:#25272f;
+     /*background-color:#25272f;*/
+     background-image: url(HERO.jpg);
+     background-size: cover;
+     font-family:  sans-serif;
      width:1100px;
      margin:auto;
+     margin-top: 70px;
      }
 
-
-header h1{
-          color:#ffffff;
-          font-style: normal;
-          }
+    
 header h2{
           text-align: center;
-           color:white;          
+           color:white; 
+          font-family: sans-serif;
+          margin-top: 80px;
           }
 header h4{
           text-align: center;
-           color:white;          
+           color:white; 
+          font-family: sans-serif;
           }
 header img{
           float:right;
@@ -24,68 +27,125 @@ header img{
 article {
         background-color: #F16F51;
         padding:20px 20px;
-        margin-top: 100px;
+        margin-top: 210px;
         margin-bottom: 10px;
+         border-radius: 6px;
          }
-article h2{
-     color:#430303;
-}
-article p{
-    color:white;
-    text-align: justify;
-    font-size: 15pt;
-    font-family:  helvetica;
-}
 
-        
-.main{
-    width: 1100px;
-    margin-left:73px;
+article p{
+          color:white;
+          text-align: justify;
+           font-size: 15pt;
+           
+          }
+
+.starter-template{
     
-}    
+}        
+.main{
+      width: 1100px;
+      margin-left:100px;   
+     }    
 
 .tile{
       float:left;
       width:350px;
-      height:290px;
+      height:450px;
       background-color: #faa742;
       padding:10px 10px;
-       margin:10px 52px;
+      margin:10px 52px;
+      font-family: sans-serif;
+       border-radius: 6px;
       }
 ol{
     color:white;
     margin-bottom:5px;
   }
 
-li{
-   margin: 5px;
-    font-family: helvetica;
-  }
 
+li{
+   margin:10px;
+   font-family: sans-serif;
+   padding:0.5px 5px;
+   font-size: 13pt; 
+   }
+
+/*All titles*/
 h3{
-    color:#430303
- }
+    color:#430303;
+    font-weight:bold;
+    margin-bottom: 40px;
+    font-family: serif;
+    
+  }
 
 .Contact{
         clear:left;
         width:300px;
-        margin:auto;
+        margin:auto; 
         margin-bottom: 10px;
         padding:5px;
         background-color: #13B2A3;
         text-align: center;
-    color:white;
+        color:white;
+         border-radius: 6px; 
         }
-h4{color:#430303}
-h5{}
+
+
+h4{ 
+    color:#430303;
+    font-weight:bold;
+    font-family: serif;
+  }
+
 
 
  a:link,        a:visited{
                   color:burlywoods;
                   }
            a:hover{ 
-                   background-color: hotpink;
+                   background-color: white;
                    }
            a:active{
                    background-color:darkblue;
                    }
+
+
+.MY_CV{
+       color:white;
+       font-size: 23pt;
+       font-weight:bold; 
+       line-height: 1.5em;
+       font-family: "Helvetica Neue";    
+       }
+.Activities{
+            margin-top: 60px;
+            }
+
+
+.strong{color:#efef64;} /*this is class so change only in the class in article tag*/
+
+
+ .btn-lg {
+              padding: 10px 16px;
+              font-size: 18px;
+              line-height: 1.3333333;
+              border-radius: 6px;
+              }
+
+    .btn-primary {
+                  color: #fff;
+                  background-color: #337ab7;
+                  border-color: #2e6da4;
+                  }
+
+/*awesome font*/
+.fa{
+     color:bisque;    
+    } 
+
+/*underline int the top of page*/
+.line{ 
+      width:50px;
+      border-color:white;
+     }
