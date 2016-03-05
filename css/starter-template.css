@@ -1,9 +1,10 @@
 body{
      /*background-color:#25272f;*/
-     background-image: url(HERO.jpg);
+     background-image: url(pic.jpg);
      background-size: cover;
      font-family:  sans-serif;
-     width:1100px;
+     max-width:1100px;
+     min-width: 0px;
      margin:auto;
      margin-top: 70px;
      }
@@ -13,13 +14,15 @@ body{
          
 header h2{
           text-align: center;
-           color:white; 
+           color:#4e1212; 
           font-family: sans-serif;
           margin-top: 80px;
+          font-size: 40pt;
+          
           }
 header h4{
           text-align: center;
-           color:white; 
+           color:#4e1212; 
           font-family: sans-serif;
           }
 header img{
@@ -57,12 +60,13 @@ article p{
       padding:10px 10px;
       margin:10px 52px;
       font-family: sans-serif;
-       border-radius: 6px;
+      border-radius: 6px;
       }
 ol{
     color:white;
     margin-bottom:5px;
   }
+
 
 
 li{
@@ -77,8 +81,7 @@ h3{
     color:#430303;
     font-weight:bold;
     margin-bottom: 40px;
-    font-family: serif;
-    
+    font-family: serif; 
   }
 
 .Contact{
@@ -94,6 +97,10 @@ h3{
         }
 
 
+    
+
+
+
 h4{ 
     color:#430303;
     font-weight:bold;
@@ -102,15 +109,17 @@ h4{
 
 
 
- a:link,        a:visited{
-                  color:burlywoods;
-                  }
-           a:hover{ 
-                   background-color: white;
-                   }
-           a:active{
-                   background-color:darkblue;
-                   }
+#askme{
+    color:white;
+      }
+#twitt{
+       color:deepskyblue;
+       opacity:0.8;
+    
+      }
+#link{color:#59f8f8;
+    opacity:0.8;
+     }
 
 
 .MY_CV{
@@ -151,4 +160,6 @@ h4{
 .line{ 
       width:50px;
       border-color:white;
+      opacity: 0;
      }
+
