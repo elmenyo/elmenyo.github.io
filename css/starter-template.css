@@ -1,6 +1,6 @@
 body{
      /*background-color:#25272f;*/
-     background-image: url(pic.jpg);
+     background-image: url(nature.jpg);
      background-size: cover;
      font-family:  sans-serif;
      max-width:1100px;
@@ -14,7 +14,7 @@ body{
          
 header h2{
           text-align: center;
-           color:#4e1212; 
+           color:#430303; 
           font-family: sans-serif;
           margin-top: 80px;
           font-size: 40pt;
@@ -86,11 +86,11 @@ h3{
 
 .Contact{
         clear:left;
-        width:300px;
+        width:500px;
         margin:auto; 
         margin-bottom: 10px;
         padding:5px;
-        background-color: #13B2A3;
+        background-color: #a2600f;
         text-align: center;
         color:white;
          border-radius: 6px; 
